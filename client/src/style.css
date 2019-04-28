@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: calibri, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    margin: 5px 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+p > button {
+    margin: 5px 0px;
+    /* background-color: blue; */
+}
+select, input {
+    margin: 10px;
+    padding: 3px;
+}
+h1 {
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.5em;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: darkred;
+}
+.container > div {
+    /* display: inline-block; */
+    margin: 5px;
+    padding: 15px;
+    border: 5px solid gray;
+    width: 350px;
+    height: 175px;
+}
+
+/* 
+sith: 
+https://assets1.ignimgs.com/thumbs/userUploaded/2016/12/5/everysithever1280-1481006742865.jpg
+
+https://imgix.bustle.com/uploads/image/2018/5/18/52677848-c4d8-4e5c-9d6d-462e73f201b2-screen-shot-2018-05-18-at-123743-pm.png?w=970&h=546&fit=crop&crop=faces&auto=format&q=70 
+
+jedi:
+https://i.ytimg.com/vi/dqYvkxzJg7g/hqdefault.jpg
+https://starwarsblog.starwars.com/wp-content/uploads/sites/8/2018/03/last-jedi-yoda-luke-skywalker.jpg
+*/

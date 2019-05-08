@@ -17,7 +17,7 @@ export default class BountyProvider extends Component{
             .then(res => {
                 this.setState({ bounties: res.data })
             })
-            .catch(err => console.log(err.response.data.errMsg))
+            .catch(err => console.log(err))
     }
 
     addNewBounty = newBounty => {
@@ -25,7 +25,7 @@ export default class BountyProvider extends Component{
             .then(res => {
                 console.log(res)
             })
-            .catch(err => console.log(err.response.data.errMsg))
+            .catch(err => console.log(err))
         }
 
     removeKilledBounty = _id => {
@@ -33,7 +33,7 @@ export default class BountyProvider extends Component{
             .then(res => {
                 console.log(res)
             })
-            .catch(err => console.log(err.response.data.errMsg))
+            .catch(err => console.log(err))
     }
 
    render(){

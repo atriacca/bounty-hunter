@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 7000
 app.use(express.json()) // req.body = Object from POST and PUT requests
 app.use(morgan('dev'))
 // For Heroku deployment (VERY important):
-app.use(express.static(path.join(_dirname, "client", "build")))
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 // Connect to mongoDB
 mongoose.connect(

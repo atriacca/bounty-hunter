@@ -34,14 +34,14 @@ p {
     display: flex;
     flex-direction: row;
     background-color: darkred;
+    display: inline-block;
 }
 .container > div {
-    /* display: inline-block; */
     margin: 5px;
     padding: 15px;
     border: 5px solid gray;
     width: 350px;
-    height: 175px;
+    height: 200px;
 }
 
 /* 

@@ -92,7 +92,7 @@ class Bounty extends Component {
         fontWeight: fWeight,
         backgroundColor: bgColor,
         color: fontColor,
-        backgroundSize: "100%"
+        backgroundSize: "100%",
     }
         return (
         <div className="container">
@@ -113,6 +113,7 @@ class Bounty extends Component {
                 </>
             :
                 <>
+                    <span>
                     <h1>{firstName} {lastName}</h1>
                     <p>Type: {type}</p>
                     <p>Alive: {living.toString()}</p>
@@ -120,6 +121,7 @@ class Bounty extends Component {
                     <button onClick={() => deleteBounty(_id)}>Delete</button>
                         <button onClick={this.toggler}>Edit</button>
                     <p>{living && <button onClick={handleSubmitKill}>Click when DEAD!</button>}</p>
+                    </span>
                 </>
             }
             </div>
